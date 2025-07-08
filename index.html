@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Vice Tactics MVP</title>
+  <title>Vice Tactics - AI Deck Test</title>
   <style>
     body { font-family: monospace; background: #111; color: #eee; padding: 20px; }
     .card { border: 1px solid #444; padding: 10px; margin: 5px; background: #222; display: inline-block; width: 200px; }
@@ -9,25 +9,57 @@
   </style>
 </head>
 <body>
-  <h1>Vice Tactics MVP</h1>
+  <h1>Vice Tactics MVP – Cyber Ronin vs. Psy-Ops AI</h1>
   <div id="status"></div>
   <div><strong>Hand:</strong></div>
   <div id="hand"></div>
   <button onclick="endTurn()">End Turn</button>
   <script>
     let playerHP = 25, opponentHP = 25, maxVice = 1, currentVice = 1, turn = 1;
-    let hand = [];
+    let hand = [], deck = [], aiDeck = [], graveyard = [];
 
-    const deck = [
-      { name: "Headbutt", cost: 2, damage: 3 },
-      { name: "Firewall Override", cost: 1, damage: 0 },
-      { name: "Firewall Override", cost: 1, damage: 0 },
-      { name: "Headbutt", cost: 2, damage: 3 },
-      { name: "Tech Slash", cost: 3, damage: 4 },
-      { name: "Glitch Pulse", cost: 2, damage: 2 },
-      { name: "Nanite Swarm", cost: 1, damage: 1 },
-      { name: "Hack Spike", cost: 2, damage: 2 }
+    const playerHero = "Cyber Ronin";
+    const aiHero = "Psy-Ops Soldier";
+
+    const allCards = {
+      "Firewall Override": { cost: 3, damage: 0 },
+      "Headbutt": { cost: 4, damage: 4 },
+      "Glitch Pulse": { cost: 2, damage: 2 },
+      "Hack Spike": { cost: 2, damage: 2 },
+      "Nanite Swarm": { cost: 1, damage: 1 },
+      "Tech Slash": { cost: 3, damage: 4 },
+      "Spellfire": { cost: 2, damage: 3 },
+      "Curse of Vice": { cost: 4, damage: 2 },
+      "Mana Burn": { cost: 3, damage: 2 },
+      "Arcane Echo": { cost: 1, damage: 0 },
+      "Combat Strategist": { cost: 5, damage: 3 },
+      "Backstab": { cost: 3, damage: 2 },
+      "Blade Flurry": { cost: 4, damage: 4 },
+      "Magic Missile": { cost: 2, damage: 2 },
+      "Battle Meditation": { cost: 3, damage: 0 },
+      "Overclock": { cost: 2, damage: 0 },
+      "System Shock": { cost: 3, damage: 3 },
+      "Shield Block": { cost: 2, damage: 0 },
+      "Adrenal Surge": { cost: 1, damage: 1 },
+      "Chain Lightning": { cost: 5, damage: 5 }
+    };
+
+    const cyberRoninDeck = [
+      "Firewall Override", "Headbutt", "Glitch Pulse", "Hack Spike", "Nanite Swarm",
+      "Tech Slash", "Overclock", "System Shock", "Adrenal Surge", "Shield Block"
     ];
+    const psyOpsDeck = [
+      "Spellfire", "Curse of Vice", "Mana Burn", "Arcane Echo", "Combat Strategist",
+      "Backstab", "Blade Flurry", "Magic Missile", "Battle Meditation", "Chain Lightning"
+    ];
+
+    function shuffleDeck(raw) {
+      let arr = [];
+      for (let i = 0; i < 4; i++) {
+        arr = arr.concat([...raw]); // simulate 40 card fill
+      }
+      return arr.sort(() => Math.random() - 0.5);
+    }
 
     function drawCard() {
       if (deck.length > 0 && hand.length < 10) {
@@ -41,27 +73,29 @@
 
     function render() {
       document.getElementById("status").innerText =
-        `Turn: ${turn} | HP: ${playerHP} | Opponent HP: ${opponentHP} | Vice: ${currentVice}/${maxVice}`;
+        `Turn: ${turn} | Your HP: ${playerHP} | Opponent HP: ${opponentHP} | Vice: ${currentVice}/${maxVice}`;
       const handDiv = document.getElementById("hand");
       handDiv.innerHTML = "";
-      hand.forEach((card, i) => {
-        const cardDiv = document.createElement("div");
-        cardDiv.className = "card";
-        cardDiv.innerHTML = `<strong>${card.name}</strong><br>Cost: ${card.cost}<br>Damage: ${card.damage}<br>`;
+      hand.forEach((name, i) => {
+        const card = allCards[name];
+        const div = document.createElement("div");
+        div.className = "card";
+        div.innerHTML = `<strong>${name}</strong><br>Cost: ${card.cost}<br>Damage: ${card.damage}<br>`;
         const btn = document.createElement("button");
         btn.innerText = "Play";
         btn.onclick = () => playCard(i);
-        cardDiv.appendChild(btn);
-        handDiv.appendChild(cardDiv);
+        div.appendChild(btn);
+        handDiv.appendChild(div);
       });
     }
 
     function playCard(index) {
-      const card = hand[index];
+      const name = hand[index];
+      const card = allCards[name];
       if (card.cost <= currentVice) {
         currentVice -= card.cost;
         opponentHP -= card.damage;
-        hand.splice(index, 1);
+        graveyard.push(hand.splice(index, 1)[0]);
         render();
       } else {
         alert("Not enough Vice!");
@@ -69,13 +103,27 @@
     }
 
     function endTurn() {
+      // AI logic
+      const aiPlays = shuffleDeck(psyOpsDeck).slice(0, 3);
+      let aiVice = Math.min(turn + 1, 10);
+      aiPlays.forEach(name => {
+        const card = allCards[name];
+        if (card.cost <= aiVice) {
+          aiVice -= card.cost;
+          playerHP -= card.damage;
+        }
+      });
+
       turn++;
-      maxVice = Math.min(10, maxVice + 1);
+      maxVice = Math.min(10, turn);
       currentVice = maxVice;
       drawCard();
       render();
     }
 
+    // Game start
+    deck = shuffleDeck(cyberRoninDeck);
+    aiDeck = shuffleDeck(psyOpsDeck);
     drawStartingHand();
     render();
   </script>
