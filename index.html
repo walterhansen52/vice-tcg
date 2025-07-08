@@ -1,2 +1,74 @@
-<!-- MVP HTML placeholder -->
-<html><body><h1>Vice Tactics MVP</h1></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vice Tactics MVP</title>
+  <style>
+    body { font-family: monospace; background: #111; color: #eee; padding: 20px; }
+    .card { border: 1px solid #444; padding: 10px; margin: 5px; background: #222; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Vice Tactics MVP (Playable)</h1>
+  <div id="status">Player HP: 25 | Opponent HP: 25 | Vice: 1</div>
+  <div id="hand"></div>
+  <button onclick="endTurn()">End Turn</button>
+  <script>
+    let playerHP = 25, opponentHP = 25, vice = 1, turn = 1;
+    let hand = [];
+
+    const deck = [
+      { name: "Headbutt", cost: 2, damage: 3 },
+      { name: "Firewall Override", cost: 1, damage: 0 },
+      { name: "Firewall Override", cost: 1, damage: 0 },
+      { name: "Headbutt", cost: 2, damage: 3 },
+    ];
+
+    function drawCard() {
+      if (deck.length > 0) {
+        hand.push(deck.shift());
+      }
+    }
+
+    function render() {
+      document.getElementById("status").textContent = `Player HP: ${playerHP} | Opponent HP: ${opponentHP} | Vice: ${vice}`;
+      const handDiv = document.getElementById("hand");
+      handDiv.innerHTML = "";
+      hand.forEach((card, index) => {
+        const div = document.createElement("div");
+        div.className = "card";
+        div.innerHTML = `<strong>${card.name}</strong><br>Cost: ${card.cost}<br>Damage: ${card.damage}<br>`;
+        const btn = document.createElement("button");
+        btn.textContent = "Play Card";
+        btn.onclick = () => playCard(index);
+        div.appendChild(btn);
+        handDiv.appendChild(div);
+      });
+    }
+
+    function playCard(index) {
+      const card = hand[index];
+      if (card.cost <= vice) {
+        vice -= card.cost;
+        opponentHP -= card.damage;
+        hand.splice(index, 1);
+        render();
+      } else {
+        alert("Not enough Vice!");
+      }
+    }
+
+    function endTurn() {
+      turn++;
+      vice = turn > 10 ? 10 : turn;
+      drawCard();
+      render();
+    }
+
+    // Initial setup
+    drawCard();
+    drawCard();
+    render();
+  </script>
+</body>
+</html>
