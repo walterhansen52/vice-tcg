@@ -1,0 +1,61 @@
+Name,Effect,Vice
+High Stakes,"Flip a coin. If heads, draw two cards. If tails, discard a card from your hand.",1
+Bandage,Restore 1 HP,1
+Disarm,Opponent returns Weapon card to their hand.,2
+Spycam,Look at your opponent's hand,2
+Sabotage,"If your opponent attacks with Combat Damage under 3, heal yourself for the amount instead",2
+Whacky Inflatable Arm Tube Man,Negates any damage under 3,2
+Sneak Peek,"Look at the top three cards of your deck, rearrange in any order",2
+Information Leak,"Choose a card from your opponents hand at random and guess the type. If correct, they discard the card, if incorrect you take 2 damage",2
+Mage-Away™,Negate an opponent's Spell card played unless they pay 3 HP,2
+"Don't Taze Me, Bro!","Deal 1 Tech Damage, or 3 Tech Damage if you discard a Spell Card from your hand",2
+Pocket Sand!,Your Opponent does not draw a card on their next turn,2
+Forced Obsolescence,Negate the effect and/or damage of a Tech card,3
+Scottish Car Bomb,"Flip a coin. If heads, deal 3 damage to your opponent. If tails, take 3 damage.",3
+"Beam me up, Scotty!",Move the card from the bottom of your deck to the top ,3
+Lottery Win,Draw 2 cards,3
+Keylogger,Opponent reveals their next two cards drawn,3
+Doohicky,"Deal 1 Tech Damage, draw one card, then look at the next card of your deck",3
+Spy Drone Network,Prevent all counter Tech this turn,3
+Magic Resistance Spray,Negate the effects and/or damage of an opponent's Spell card,4
+Explosive Drone,Deal 2 Tech Damage to your opponent,4
+Overclock,"Double your Weapon's damage until the end of the turn, then destroy it",4
+Identity Theft,"If your opponent draws cards from a card effect, draw the same amount of cards",4
+Booby Trap,Pick two cards from your opponents hand and shuffle them back into their deck,4
+Vial of acid,"Applies +1 to Weapon's damage, but -1 to its durability",4
+Vial of poison,Applies +2 on Weapon's next attack,4
+Keep your eye on the prize,"Look at the top 5 cards of your deck, rearrange in any order",4
+Synthetic Distraction,Blocks next Combat Damage ,4
+OTC Painkillers,Restore 4 HP,4
+Grappling Hook,"1 Tech Damage, and ignore Opponent's Tech if played on your turn",4
+(Wayne/Stark) Trust Fund,Gain 2 Vice until the end of the turn,4
+Quick Getaway,Jetpack to safety. Opponent cannot attack you for the next round.,4
+Stop Hitting Yourself,"If your opponent uses a Combat Card, deal 1 Tech Damage each time for 3 turns",4
+Flash Bangarang!,"Opponent is unable to use a Combat card their next turn, deal 1 damage",4
+Scientific Magic,Play a Spell card from your opponent's discard pile at +3 cost,5
+Smoke Bomb,Exchange 3 cards in hand for top 3 cards of your deck,5
+Classic Bear Trap,"If damaged last turn, deal 4 Tech Damage",5
+Roofie,Your Opponent cannot reduce Vice costs on their next turn,5
+Virus,Discard up to 4 cards from your hand. Your opponent must discard the same amount,6
+Advanced Disarm,Destroy one of your Opponent's weapons,6
+"But Wait, There's More!","Nullify the effect/damage of an Opponent's Combat card, then deal 3 Tech Damage",6
+Carbon Copy,Create a copy of your Opponent's equipped Weapon but with a Durability of 1,7
+Strange Concoction,Restore 7 HP. Reduce outgoing damage of any type by 1 for your next turn,7
+Unfamiliar Tech,Give a damage dealing card from your hand to your opponent to use on their next turn for 2x the Vice cost and half the effect,7
+Calculated Risk,"Both Heroes draw 3 cards, keep 1, discard the other 2",7
+C4,This card lasts until activated or destroyed by opponent. Deals 6 Tech Damage when activated or destroyed,8
+Planned Malfunction,"If your opponent uses a Tech card, reverse its effects (dealing damage, drawing cards, etc.)",8
+Lingering Stench Bomb,Deal 2 Tech Damage per turn for 3 turns. This card can last an additional turn if you discard 1 Tech card from your hand,8
+You'll Never Take Me Alive!,Opponent is unable to use Combat cards when you have less than 3 HP. Lasts 3 rounds,8
+Attack of Opportunity,"If opponent has no Weapon equipped, deal 5 damage",8
+Genetic Strength Experimentation,"Deal 8 Tech Damage, skip your next two turns",9
+"Super Sticky Bomb...like, gross.","Nullify the effect/damage of an Opponent's Combat card for three turns, then deal 3 Damage",9
+Non-Believer,"When your opponent plays a Spell card, they must flip coins equal to the half Vice cost. For each tails, they take 2 damage",10
+Gridlock,Your opponent must skip their next turn,10
+Scrapyard Bomb,Deal damage to your opponent equal to half the number of cards in your discard pile,10
+Carpet Bomb,Opponent takes 2 damage and discards 3 cards from their hand,10
+Napalm Death,"Take 8 damage, then deal 8 damage to your opponent on your next turn",10
+Remote Flash Paper,"Discard your hand. For every card discarded, deal 1 damage",10
+Junk Hoarder,Deal damage to your opponent equal to one-half the Tech cards in their discard pile,10
+Minesweeper,Deal 4 Tech damage for every card in play,12
+Stun'n'Gun,Deal 2 Tech Damage. Your Opponent must pay full Vice cost for all cards for their next 2 turns,10

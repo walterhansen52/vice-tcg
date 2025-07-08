@@ -1,0 +1,61 @@
+Name,Effect,Vice Cost
+Time Warp,Repeat last card's action for double its Vice cost,0
+Virgin Sacrifice,Gain 1 Vice this turn or draw one card,0
+Borrowed Time,Use up to 4 vice from your next turn during this turn,0
+Last Rights,All Spell costs are halved this turn if you are below 3 HP,0
+Vice Drain,Steal 1 Vice from opponent's next turn and instantly add 1 Vice to your pool,1
+Arcane Knowledge,Draw 1 card,1
+Novice's Bolt,Deal 1 Spell Damage ,1
+Even Stevens,"Discard 1 card from your hand, then draw 1 card",2
+Novice Magic Shield,Prevent 2 Spell Damage,2
+Overheat,Prevent 2 Tech Damage,2
+Novice Barrier,Prevent 2 Combat Damage,2
+Fortune,Draw 2 Cards,2
+Unsteady Magic,Deal 3 Spell damage to both you and your opponent,2
+Sacrifice,"Deal 2 Pure Damage to self, draw 1 card, and deal 1 Damage",2
+Blood Pact,Discard up to 4 cards from your hand. Deal 1 damage to opponent per card discarded,2
+Novice Blade Barrier,Reduce a Weapon's Damage by 1 for the next three attacks,2
+Vice Burn,Remove 2 Vice from opponent for their next turn,2
+Blood Magic,Take 3 Pure Damage for 1 Vice,2
+Tribal Ritual,Take 3 Pure Damage. Draw 2 cards,0
+Novice Healing Spell,Restore 2 HP,2
+Blade Shatter Spell,Destroy a Weapon and deal its damage to yourself,3
+Hand-Trick,"Discard 1 Card, Deal 2 Spell Damage",3
+Enchant,Add 1 Damage to your equipped Weapon,3
+Conjure Demon,Draw 1 card. Deal 1 Spell Damage,3
+Hearing Voices?,"Your Opponent must play a Combat Card next turn. If they cannot play one, they must discard 2 cards",4
+Level the Playing Field,"If the difference between your Opponent and your HP is > 5, deal 5 Spell Damage",4
+Bolt,Deal 4 Spell damage,4
+Arcane Armor,"Blocks the next 4 damage of a declared type (Spell, Combat, Tech)",4
+Arcane Shield,Blocks 1 attack up to 6 damage,4
+Prestidigitation ,Summon a copy of opponent's Weapon at half damage and 1 Durability,4
+Oracle,"Reveal the next three cards of your opponent's deck, then move one to the bottom of their deck",4
+Silence,Opponent cannot use Spells their next turn,4
+Mind over Matter,Deal 1 damage when your opponent plays a Tech card. Lasts 3 turns,4
+The Ol' Switcharoo!,"Swap your primary Weapon for your opponent's. If you have no weapon equipped, you take 2 Spell Damage.",4
+The Power of the Third,This card can only be played if you have an equipped Weapon and play a Tech card this round. Deal 7 Spell Damage,4
+Shapeshift,"For the next three turns, you have the same cost modifiers as your opponent",5
+Sanguine Prophecy,"Suffer 2 Pure damage, reveal top 5 cards of your deck and rearrange them",5
+Adept Bolt,Deal 6 Spell damage,6
+Adept Healing Spell,Restore 5 HP,6
+"Illusions, Michael",Take 2 random cards from opponent's deck and place them in your hand,6
+GOD HAND,Reduce your next Spell cost by 5. Take 3 Spell damage,6
+Magic Mirror,Deals any Spell damage back to opponent for two turns,7
+Devil's Eye,Discard one card of your choosing from your Opponent's hand,7
+Metamorphosis,"Gain 2 health. All Spell damage is increased by 1 for 3 turns, and after 3 turns, lose 3 health.",7
+Demonic Blast,"Flip a coin. If heads, deal 8 Spell damage. ",7
+Now you see me . . . ,Prevent attacks for two turns,8
+Field of Power,Deal 2 Spell Damage for each card in play,8
+Call of the Crazed,Pay 3 HP. Your opponent chooses a card from your hand to play at no cost. Hlirgh athgh!,8
+O-blade-erate,"Destroy all of your opponent's combat cards in play, then deal 4 Spell Damage ",9
+Big Bang!,Destroy all cards in play. Draw 1 card.,9
+Wave of Healing,Restore 8 HP,9
+Voodoo,Damage and Healing effects are dealt to both Heroes for 5 turns,10
+Precise Magic,Deal 6 Pure damage. This spell and its damage cannot be negated.,10
+InstaSwamp™,Any damage you take next turn will not apply until after 2 turns,10
+Lightening Field,"For the next three turns, deal half of all damage recieved as Spell Damage",10
+Unearthly Summoning,Pay 2 HP to draw a card for every card in play,10
+Force of Willpower,Your Opponent must pay the full Vice cost for every card for the next 4 turns ,10
+Price Gouge,Your Opponent must pay double the full Vice cost for every card for the next 2 turns ,10
+Necronomicon,Replay a card from your discard pile,11
+Reincarnation,Come back to life with 1 HP,12

@@ -1,0 +1,61 @@
+Card Name,Effect,Durability ,Vice Cost,Kind*,Duration
+Boot Knife,Instantly deal 1 Combat Damage,,1, Instant Action,
+Short Sword,2 Combat Damage,3,1,Weapon,
+Rapid Fire,Attack with your weapon for every card discarded from your hand; Weapon wanes in Durability as normal,,1, Instant Action,
+Squire,This little shit deals 2 Combat Damage,,2, Instant Action,
+Marksman's Bow,Deal 2 Combat Damage; Ignores Tech counters,4,2,Weapon,
+Battle Hardened Hard-on,Take the last card played from your discard pile and put it back into your deck.,,2, Instant Action,
+"Parry, ho!",Block an incoming attack (any type) that is < 5 damage and deal 1 Combat Damage,,2, Instant Action,
+Bo-Staff,3 Combat Damage,3,3,Weapon,
+Pokey Pike,"Deals 2 Combat Damage, and deal -1 Durability to Opponent's equipped weapon",2,3,Weapon,
+Sacrificial Dagger,Deal 4 Combat Damage to opponent and 2 to yourself,2,3,Weapon,
+Havin' trouble gettin' it up?,Deal -2 Durability to opponent's Weapon,,3, Instant Action,
+BitchSlap!,Deal 1 Combat Damage. Drain 1 Vice from opponent's next turn,,3, Instant Action,
+Golden Gun,3 Pure Damage,1,4,Weapon,
+Dual-Wielding ,Allows you to equip a second Weapon for 6 turns,,4,Buff/Lingering effect,6 Turns
+Take it Like a Man,Absorb 2 Damage (any type). Deal -1 Durability to opponent's Weapon,,4, Instant Action,
+Can't Touch This,"For the next two incoming attacks, flip a coin. If heads, dodge the attack and its effects. ",,4,Buff/Lingering effect,2 Attacks
+Headbutt,Deals 4 Combat Damage to Opponent and 1 Combat Damage to yourself; Opponent deals -1 damage their next attack,,4, Instant Action,
+Divine Retribution,Deal 1 damage when opponent plays a Spell card for 4 turns,,4,Buff/Lingering effect,4 Turns
+Sore Loser,"If you have 3 HP or less, deal 6 Combat Damage, Heal 2 HP",,4, Instant Action,
+Makeshift Handgun,50% chance deal 4 Combat Damage. 50% chance deal 0 damage and lose 2 Durability instead of 1. Flip a coin each use.,4,5,Weapon,
+SEPPUKU?!?!,Inflict 6 Combat Damage to yourself. Deal 4 Pure Damage to your Opponent,,5, Instant Action,
+Combat Strategist,Deal 1 Combat Damage for every card you played this turn,,5, Instant Action,
+Big-Ass Blade,4 Combat Damage,2,5,Weapon,
+Raging Alcoholic,"Deal 2 Combat Damage, Heal 1, and Deal -1 Durability to Opponent's equipped Weapon",,5, Instant Action,
+Vorpal Blade,Deals 1 Combat Damage per card in your hand,1,6,Weapon,
+Wrecking-Ball,Deal 3 Combat Damage and destroy Opponent's Equipped Weapon(s),1,6,Weapon,
+Digital Saber,"Deals 1 Combat Damage, and an additional 1 Combat Damage for each Tech Card in your hand",1,6,Weapon,
+Advanced Dual-Wielding,Allows you to equip a second Weapon for 8 turns,,6,Buff/Lingering effect,8 Turns
+Tank'n'Spank,"Block the next source of any damage type, and deal 3 Combat Damage",,6, Instant Action,
+Storm the Gates,Deal 3 Combat Damage; block the next attack recieved from Opponent,1,6,Buff/Lingering effect,Until Attacked
+Mace-in-yo-Face,Deal 3 Combat Damage; This Weapon's attacks ignore any Tech and Spell counter cards,2,6,Weapon,
+Blessed Beam Blade,Deal 1 Combat Damage. Heal 1 HP or cause 1 Spell Damage for every Spell card in your hand,1,7,Weapon,
+LEEROOOOYYYYY,Take 6 Combat Damage. Deal 6 Pure Damage to your Opponent,,7, Instant Action,
+IT'S JUST A FLESH WOUND,Take 2 Damage (any type) per card discarded from the top of your deck,,7,Buff/Lingering effect,May Vary
+Gambler's Club,"Deal 5 Combat Damage; Flip a coin, heads your Opponent takes an additional 2 Combat Damage, tails you take 4",3,7,Weapon,
+Battle Trance,Add 1 Durability and 1 Combat Damage to your Equipped Weapon,,7,Buff/Lingering effect,Until Weapon is Destroyed or Unequipped
+Technologically Sound,Negates all effects from Tech cards for 2 turns.,,7,Buff/Lingering effect,2 Turns
+Paladin's Zeal,Negates all effects from Spell cards for 2 turns.,,7,Buff/Lingering effect,2 Turns
+Flaming Sword,5 Combat Damage; inflicts 1 Combat Damage to yourself each turn Equipped,3,8,Weapon,
+Look Before You Leap,Your Combat attacks Ignore Tech counter cards this turn,,8,Buff/Lingering effect,2 Turns
+Barbaric Barrage,Deal 3 Combat Damage for every card in play,,8, Instant Action,
+Cup Check!,Deal 1 Combat Damage this turn. Your Opponent must pay the full Vice cost for all cards the next 3 turns.,,8,Buff/Lingering effect,3 Turns
+Executioner's Blade,Deal 5 Combat Damage,3,8,Weapon,
+Vampiric Blade,"Deals 3 Combat Damage, Heals 1 HP",3,8,Weapon,
+Zweihänder,Deal 5 Combat Damage when Opponent's HP is less than 25. Deal 3 Combat Damage otherwise,3,9,Weapon,
+The MageSlayer,Deals 2 Combat Damage for every Spell card in your Opponent's hand,1,9,Weapon,
+Stun-Nun-Chucks,6 Combat Damage. Opponent unable to attack with their Weapon next turn.,2,9,Weapon,
+The Sword from that Stone,4 Pure Damage,2,9,Weapon,
+Enchanted Tower Shield,Blocks the first 3 points of incoming Damage of any type 3 times,,9,Buff/Lingering effect,3 Attacks
+Rune Enchanted Axe,Deals 3 Combat Damage and 1 Spell Damage for each Spell Card in your hand,1,9,Weapon,
+The (Neil) Diamond Sword,"If the Opponent has no Weapon equipped, deal 6 Combat Damage. Otherwise, deal 3 Combat Damage",3,9,Weapon,
+Returning the Favor,Deal Damage recieved from Opponent's last attack as Combat Damage,,9, Instant Action,
+Parameter Pike,"If Opponent's HP is an even number, deal 7 Combat Damage. If odd, deal 0",2,10,Weapon,
+Skull Bash,Deal 4 Combat Damage. Your Opponent must pay the full Vice cost for their next 4 cards played.,,10,Buff/Lingering effect,4 Card plays
+Eye for an Eye,Lower your Opponent's HP to your own. This card cannot be used when your HP is less than 10.,,10, Instant Action,
+There's No Time to Think,"Skip your next turn, but deal 7 Pure Damage this turn and the next",,10, Instant Action,
+"No Pain, No Gain",Ignore all sources of Damage for two turns,,11,Buff/Lingering effect,2 Turns
+Blademaster,Allows you to equip a second Weapon indefinitely,,12,Buff/Lingering effect,Indefinite
+Prolonging the Inevitable,HP cannot go lower than 1 for two turns,,13, Instant Action,2 Turns
+Special Beam Cannon!,8 Combat Damage,5,14,Weapon,

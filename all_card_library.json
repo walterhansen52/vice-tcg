@@ -1,0 +1,1108 @@
+[
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Instantly deal 1 Combat Damage"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "2 Combat Damage",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Attack with your weapon for every card discarded from your hand; Weapon wanes in Durability as normal"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "This little shit deals 2 Combat Damage"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 2 Combat Damage; Ignores Tech counters",
+    "durability": 4
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Take the last card played from your discard pile and put it back into your deck."
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Block an incoming attack (any type) that is < 5 damage and deal 1 Combat Damage"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "3 Combat Damage",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deals 2 Combat Damage, and deal -1 Durability to Opponent's equipped weapon",
+    "durability": 2
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 4 Combat Damage to opponent and 2 to yourself",
+    "durability": 2
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal -2 Durability to opponent's Weapon"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 1 Combat Damage. Drain 1 Vice from opponent's next turn"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "3 Pure Damage",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Allows you to equip a second Weapon for 6 turns"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Absorb 2 Damage (any type). Deal -1 Durability to opponent's Weapon"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "For the next two incoming attacks, flip a coin. If heads, dodge the attack and its effects. "
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deals 4 Combat Damage to Opponent and 1 Combat Damage to yourself; Opponent deals -1 damage their next attack"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 1 damage when opponent plays a Spell card for 4 turns"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "If you have 3 HP or less, deal 6 Combat Damage, Heal 2 HP"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "50% chance deal 4 Combat Damage. 50% chance deal 0 damage and lose 2 Durability instead of 1. Flip a coin each use.",
+    "durability": 4
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Inflict 6 Combat Damage to yourself. Deal 4 Pure Damage to your \u0003Opponent"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 1 Combat Damage for every card you played this turn"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "4 Combat Damage",
+    "durability": 2
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 2 Combat Damage, Heal 1, and Deal -1 Durability to Opponent's equipped Weapon"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deals 1 Combat Damage per card in your hand",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 3 Combat Damage and destroy Opponent's Equipped Weapon(s)",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deals 1 Combat Damage, and an additional 1 Combat Damage for each Tech Card in your hand",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Allows you to equip a second Weapon for 8 turns"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Block the next source of any damage type, and deal 3 Combat Damage"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 3 Combat Damage; block the next attack recieved from Opponent",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 3 Combat Damage; This \u0003Weapon's attacks ignore any Tech and Spell counter cards",
+    "durability": 2
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 1 Combat Damage. Heal 1 HP or cause 1 Spell Damage for every Spell card in your hand",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Take 6 Combat Damage. Deal 6 Pure Damage to your Opponent"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Take 2 Damage (any type) per card discarded from the top of your deck"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 5 Combat Damage; Flip a coin, heads your Opponent takes an additional 2 Combat Damage, tails you take 4",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Add 1 Durability and 1 Combat Damage to your Equipped Weapon"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Negates all effects from Tech cards for 2 turns."
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Negates all effects from Spell cards for 2 turns."
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "5 Combat Damage;\u0003 inflicts 1 Combat Damage to yourself each turn Equipped",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Your Combat attacks Ignore Tech counter cards this turn"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 3 Combat Damage for every card in play"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 1 Combat Damage this turn. Your Opponent must pay the full Vice cost for all cards the next 3 turns."
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 5 Combat Damage",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deals 3 Combat Damage, Heals 1 HP",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 5 Combat Damage when Opponent's HP is less than 25. Deal 3 Combat Damage otherwise",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deals 2 Combat Damage for every Spell card in your Opponent's hand",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "6 Combat Damage. Opponent unable to attack with their Weapon next turn.",
+    "durability": 2
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "4 Pure Damage",
+    "durability": 2
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Blocks the first 3 points of incoming Damage of any type 3 times"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deals 3 Combat Damage and 1 Spell Damage for each Spell Card in your hand",
+    "durability": 1
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "If the Opponent has no Weapon equipped, deal 6 Combat Damage. Otherwise, deal 3 Combat Damage",
+    "durability": 3
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal Damage recieved from Opponent's last attack as Combat Damage"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "If Opponent's HP is an even number, deal 7 Combat Damage. If odd, deal 0",
+    "durability": 2
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Deal 4 Combat Damage. Your Opponent must pay the full Vice cost for their next 4 cards played."
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Lower your Opponent's HP to your own. This card cannot be used when your HP is less than 10."
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Skip your next turn, but deal 7 Pure Damage this turn and the next"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Ignore all sources of Damage for two turns"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "Allows you to equip a second Weapon indefinitely"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "HP cannot go lower than 1 for two turns"
+  },
+  {
+    "name": NaN,
+    "type": "combat",
+    "cost": 0,
+    "effect": "8 Combat Damage",
+    "durability": 5
+  },
+  {
+    "name": "Time Warp",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Repeat last card's action for double its Vice cost"
+  },
+  {
+    "name": "Virgin Sacrifice",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Gain 1 Vice this turn or draw one card"
+  },
+  {
+    "name": "Borrowed Time",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Use up to 4 vice from your next turn during this turn"
+  },
+  {
+    "name": "Last Rights",
+    "type": "spell",
+    "cost": 0,
+    "effect": "All Spell costs are halved this turn if you are below 3 HP"
+  },
+  {
+    "name": "Vice Drain",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Steal 1 Vice from opponent's next turn and instantly add 1 Vice to your pool"
+  },
+  {
+    "name": "Arcane Knowledge",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Draw 1 card"
+  },
+  {
+    "name": "Novice's Bolt",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 1 Spell Damage "
+  },
+  {
+    "name": "Even Stevens",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Discard 1 card from your hand, then draw 1 card"
+  },
+  {
+    "name": "Novice Magic Shield",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Prevent 2 Spell Damage"
+  },
+  {
+    "name": "Overheat",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Prevent 2 Tech Damage"
+  },
+  {
+    "name": "Novice Barrier",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Prevent 2 Combat Damage"
+  },
+  {
+    "name": "Fortune",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Draw 2 Cards"
+  },
+  {
+    "name": "Unsteady Magic",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 3 Spell damage to both you and your opponent"
+  },
+  {
+    "name": "Sacrifice",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 2 Pure Damage to self, draw 1 card, and deal 1 Damage"
+  },
+  {
+    "name": "Blood Pact",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Discard up to 4 cards from your hand. Deal 1 damage to opponent per card discarded"
+  },
+  {
+    "name": "Novice Blade Barrier",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Reduce a Weapon's Damage by 1 for the next three attacks"
+  },
+  {
+    "name": "Vice Burn",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Remove 2 Vice from opponent for their next turn"
+  },
+  {
+    "name": "Blood Magic",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Take 3 Pure Damage for 1 Vice"
+  },
+  {
+    "name": "Tribal Ritual",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Take 3 Pure Damage. Draw 2 cards"
+  },
+  {
+    "name": "Novice Healing Spell",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Restore 2 HP"
+  },
+  {
+    "name": "Blade Shatter Spell",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Destroy a Weapon and deal its damage to yourself"
+  },
+  {
+    "name": "Hand-Trick",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Discard 1 Card, Deal 2 Spell Damage"
+  },
+  {
+    "name": "Enchant",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Add 1 Damage to your equipped Weapon"
+  },
+  {
+    "name": "Conjure Demon",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Draw 1 card. Deal 1 Spell Damage"
+  },
+  {
+    "name": "Hearing Voices?",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Your Opponent must play a Combat Card next turn. If they cannot play one, they must discard 2 cards"
+  },
+  {
+    "name": "Level the Playing Field",
+    "type": "spell",
+    "cost": 0,
+    "effect": "If the difference between your Opponent and your HP is > 5, deal 5 Spell Damage"
+  },
+  {
+    "name": "Bolt",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 4 Spell damage"
+  },
+  {
+    "name": "Arcane Armor",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Blocks the next 4 damage of a declared type (Spell, Combat, Tech)"
+  },
+  {
+    "name": "Arcane Shield",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Blocks 1 attack up to 6 damage"
+  },
+  {
+    "name": "Prestidigitation ",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Summon a copy of opponent's Weapon at half damage and 1 Durability"
+  },
+  {
+    "name": "Oracle",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Reveal the next three cards of your opponent's deck, then move one to the bottom of their deck"
+  },
+  {
+    "name": "Silence",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Opponent cannot use Spells their next turn"
+  },
+  {
+    "name": "Mind over Matter",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 1 damage when your opponent plays a Tech card. Lasts 3 turns"
+  },
+  {
+    "name": "The Ol' Switcharoo!",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Swap your primary Weapon for your opponent's. If you have no weapon equipped, you take 2 Spell Damage."
+  },
+  {
+    "name": "The Power of the Third",
+    "type": "spell",
+    "cost": 0,
+    "effect": "This card can only be played if you have an equipped Weapon and play a Tech card this round. Deal 7 Spell Damage"
+  },
+  {
+    "name": "Shapeshift",
+    "type": "spell",
+    "cost": 0,
+    "effect": "For the next three turns, you have the same cost modifiers as your opponent"
+  },
+  {
+    "name": "Sanguine Prophecy",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Suffer 2 Pure damage, reveal top 5 cards of your deck and rearrange them"
+  },
+  {
+    "name": "Adept Bolt",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 6 Spell damage"
+  },
+  {
+    "name": "Adept Healing Spell",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Restore 5 HP"
+  },
+  {
+    "name": "Illusions, Michael",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Take 2 random cards from opponent's deck and place them in your hand"
+  },
+  {
+    "name": "GOD HAND",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Reduce your next Spell cost by 5. Take 3 Spell damage"
+  },
+  {
+    "name": "Magic Mirror",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deals any Spell damage back to opponent for two turns"
+  },
+  {
+    "name": "Devil's Eye",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Discard one card of your choosing from your Opponent's hand"
+  },
+  {
+    "name": "Metamorphosis",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Gain 2 health. All Spell damage is increased by 1 for 3 turns, and after 3 turns, lose 3 health."
+  },
+  {
+    "name": "Demonic Blast",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Flip a coin. If heads, deal 8 Spell damage. "
+  },
+  {
+    "name": "Now you see me . . . ",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Prevent attacks for two turns"
+  },
+  {
+    "name": "Field of Power",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 2 Spell Damage for each card in play"
+  },
+  {
+    "name": "Call of the Crazed",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Pay 3 HP. Your opponent chooses a card from your hand to play at no cost. Hlirgh athgh!"
+  },
+  {
+    "name": "O-blade-erate",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Destroy all of your opponent's combat cards in play, then deal 4 Spell Damage "
+  },
+  {
+    "name": "Big Bang!",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Destroy all cards in play. Draw 1 card."
+  },
+  {
+    "name": "Wave of Healing",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Restore 8 HP"
+  },
+  {
+    "name": "Voodoo",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Damage and Healing effects are dealt to both Heroes for 5 turns"
+  },
+  {
+    "name": "Precise Magic",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Deal 6 Pure damage. This spell and its damage cannot be negated."
+  },
+  {
+    "name": "InstaSwamp\u2122",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Any damage you take next turn will not apply until after 2 turns"
+  },
+  {
+    "name": "Lightening Field",
+    "type": "spell",
+    "cost": 0,
+    "effect": "For the next three turns, deal half of all damage recieved as Spell Damage"
+  },
+  {
+    "name": "Unearthly Summoning",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Pay 2 HP to draw a card for every card in play"
+  },
+  {
+    "name": "Force of Willpower",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Your Opponent must pay the full Vice cost for every card for the next 4 turns "
+  },
+  {
+    "name": "Price Gouge",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Your Opponent must pay double the full Vice cost for every card for the next 2 turns "
+  },
+  {
+    "name": "Necronomicon",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Replay a card from your discard pile"
+  },
+  {
+    "name": "Reincarnation",
+    "type": "spell",
+    "cost": 0,
+    "effect": "Come back to life with 1 HP"
+  },
+  {
+    "name": "High Stakes",
+    "type": "tech",
+    "cost": 1,
+    "effect": "Flip a coin. If heads, draw two cards. If tails, discard a card from your hand."
+  },
+  {
+    "name": "Bandage",
+    "type": "tech",
+    "cost": 1,
+    "effect": "Restore 1 HP"
+  },
+  {
+    "name": "Disarm",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Opponent returns Weapon card to their hand."
+  },
+  {
+    "name": "Spycam",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Look at your opponent's hand"
+  },
+  {
+    "name": "Sabotage",
+    "type": "tech",
+    "cost": 2,
+    "effect": "If your opponent attacks with Combat Damage under 3, heal yourself for the amount instead"
+  },
+  {
+    "name": "Whacky Inflatable Arm Tube Man",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Negates any damage under 3"
+  },
+  {
+    "name": "Sneak Peek",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Look at the top three cards of your deck, rearrange in any order"
+  },
+  {
+    "name": "Information Leak",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Choose a card from your opponents hand at random and guess the type. If correct, they discard the card, if incorrect you take 2 damage"
+  },
+  {
+    "name": "Mage-Away\u2122",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Negate an opponent's Spell card played unless they pay 3 HP"
+  },
+  {
+    "name": "Don't Taze Me, Bro!",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Deal 1 Tech Damage, or 3 Tech Damage if you discard a Spell Card from your hand"
+  },
+  {
+    "name": "Pocket Sand!",
+    "type": "tech",
+    "cost": 2,
+    "effect": "Your Opponent does not draw a card on their next turn"
+  },
+  {
+    "name": "Forced Obsolescence",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Negate the effect and/or damage of a Tech card"
+  },
+  {
+    "name": "Scottish Car Bomb",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Flip a coin. If heads, deal 3 damage to your opponent. If tails, take 3 damage."
+  },
+  {
+    "name": "Beam me up, Scotty!",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Move the card from the bottom of your deck to the top "
+  },
+  {
+    "name": "Lottery Win",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Draw 2 cards"
+  },
+  {
+    "name": "Keylogger",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Opponent reveals their next two cards drawn"
+  },
+  {
+    "name": "Doohicky",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Deal 1 Tech Damage, draw one card, then look at the next card of your deck"
+  },
+  {
+    "name": "Spy Drone Network",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Prevent all counter Tech this turn"
+  },
+  {
+    "name": "Magic Resistance Spray",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Negate the effects and/or damage of an opponent's Spell card"
+  },
+  {
+    "name": "Explosive Drone",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Deal 2 Tech Damage to your opponent"
+  },
+  {
+    "name": "Overclock",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Double your Weapon's damage until the end of the turn, then destroy it"
+  },
+  {
+    "name": "Identity Theft",
+    "type": "tech",
+    "cost": 4,
+    "effect": "If your opponent draws cards from a card effect, draw the same amount of cards"
+  },
+  {
+    "name": "Booby Trap",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Pick two cards from your opponents hand and shuffle them back into their deck"
+  },
+  {
+    "name": "Vial of acid",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Applies +1 to Weapon's damage, but -1 to its durability"
+  },
+  {
+    "name": "Vial of poison",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Applies +2 on Weapon's next attack"
+  },
+  {
+    "name": "Keep your eye on the prize",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Look at the top 5 cards of your deck, rearrange in any order"
+  },
+  {
+    "name": "Synthetic Distraction",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Blocks next Combat Damage "
+  },
+  {
+    "name": "OTC Painkillers",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Restore 4 HP"
+  },
+  {
+    "name": "Grappling Hook",
+    "type": "tech",
+    "cost": 4,
+    "effect": "1 Tech Damage, and ignore Opponent's Tech if played on your turn"
+  },
+  {
+    "name": "(Wayne/Stark) Trust Fund",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Gain 2 Vice until the end of the turn"
+  },
+  {
+    "name": "Quick Getaway",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Jetpack to safety. Opponent cannot attack you for the next round."
+  },
+  {
+    "name": "Stop Hitting Yourself",
+    "type": "tech",
+    "cost": 4,
+    "effect": "If your opponent uses a Combat Card, deal 1 Tech Damage each time for 3 turns"
+  },
+  {
+    "name": "Flash Bangarang!",
+    "type": "tech",
+    "cost": 4,
+    "effect": "Opponent is unable to use a Combat card their next turn, deal 1 damage"
+  },
+  {
+    "name": "Scientific Magic",
+    "type": "tech",
+    "cost": 5,
+    "effect": "Play a Spell card from your opponent's discard pile at +3 cost"
+  },
+  {
+    "name": "Smoke Bomb",
+    "type": "tech",
+    "cost": 5,
+    "effect": "Exchange 3 cards in hand for top 3 cards of your deck"
+  },
+  {
+    "name": "Classic Bear Trap",
+    "type": "tech",
+    "cost": 5,
+    "effect": "If damaged last turn, deal 4 Tech Damage"
+  },
+  {
+    "name": "Roofie",
+    "type": "tech",
+    "cost": 5,
+    "effect": "Your Opponent cannot reduce Vice costs on their next turn"
+  },
+  {
+    "name": "Virus",
+    "type": "tech",
+    "cost": 6,
+    "effect": "Discard up to 4 cards from your hand. Your opponent must discard the same amount"
+  },
+  {
+    "name": "Advanced Disarm",
+    "type": "tech",
+    "cost": 6,
+    "effect": "Destroy one of your Opponent's weapons"
+  },
+  {
+    "name": "But Wait, There's More!",
+    "type": "tech",
+    "cost": 6,
+    "effect": "Nullify the effect/damage of an Opponent's Combat card, then deal 3 Tech Damage"
+  },
+  {
+    "name": "Carbon Copy",
+    "type": "tech",
+    "cost": 7,
+    "effect": "Create a copy of your Opponent's equipped Weapon but with a Durability of 1"
+  },
+  {
+    "name": "Strange Concoction",
+    "type": "tech",
+    "cost": 7,
+    "effect": "Restore 7 HP. Reduce outgoing damage of any type by 1 for your next turn"
+  },
+  {
+    "name": "Unfamiliar Tech",
+    "type": "tech",
+    "cost": 7,
+    "effect": "Give a damage dealing card from your hand to your opponent to use on their next turn for 2x the Vice cost and half the effect"
+  },
+  {
+    "name": "Calculated Risk",
+    "type": "tech",
+    "cost": 7,
+    "effect": "Both Heroes draw 3 cards, keep 1, discard the other 2"
+  },
+  {
+    "name": "C4",
+    "type": "tech",
+    "cost": 8,
+    "effect": "This card lasts until activated or destroyed by opponent. Deals 6 Tech Damage when activated or destroyed"
+  },
+  {
+    "name": "Planned Malfunction",
+    "type": "tech",
+    "cost": 8,
+    "effect": "If your opponent uses a Tech card, reverse its effects (dealing damage, drawing cards, etc.)"
+  },
+  {
+    "name": "Lingering Stench Bomb",
+    "type": "tech",
+    "cost": 8,
+    "effect": "Deal 2 Tech Damage per turn for 3 turns. This card can last an additional turn if you discard 1 Tech card from your hand"
+  },
+  {
+    "name": "You'll Never Take Me Alive!",
+    "type": "tech",
+    "cost": 8,
+    "effect": "Opponent is unable to use Combat cards when you have less than 3 HP. Lasts 3 rounds"
+  },
+  {
+    "name": "Attack of Opportunity",
+    "type": "tech",
+    "cost": 8,
+    "effect": "If opponent has no Weapon equipped, deal 5 damage"
+  },
+  {
+    "name": "Genetic Strength Experimentation",
+    "type": "tech",
+    "cost": 9,
+    "effect": "Deal 8 Tech Damage, skip your next two turns"
+  },
+  {
+    "name": "Super Sticky Bomb...like, gross.",
+    "type": "tech",
+    "cost": 9,
+    "effect": "Nullify the effect/damage of an Opponent's Combat card for three turns, then deal 3 Damage"
+  },
+  {
+    "name": "Non-Believer",
+    "type": "tech",
+    "cost": 10,
+    "effect": "When your opponent plays a Spell card, they must flip coins equal to the half Vice cost. For each tails, they take 2 damage"
+  },
+  {
+    "name": "Gridlock",
+    "type": "tech",
+    "cost": 10,
+    "effect": "Your opponent must skip their next turn"
+  },
+  {
+    "name": "Scrapyard Bomb",
+    "type": "tech",
+    "cost": 10,
+    "effect": "Deal damage to your opponent equal to half the number of cards in your discard pile"
+  },
+  {
+    "name": "Carpet Bomb",
+    "type": "tech",
+    "cost": 10,
+    "effect": "Opponent takes 2 damage and discards 3 cards from their hand"
+  },
+  {
+    "name": "Napalm Death",
+    "type": "tech",
+    "cost": 10,
+    "effect": "Take 8 damage, then deal 8 damage to your opponent on your next turn"
+  },
+  {
+    "name": "Remote Flash Paper",
+    "type": "tech",
+    "cost": 10,
+    "effect": "Discard your hand. For every card discarded, deal 1 damage"
+  },
+  {
+    "name": "Junk Hoarder",
+    "type": "tech",
+    "cost": 10,
+    "effect": "Deal damage to your opponent equal to one-half the Tech cards in their discard pile"
+  },
+  {
+    "name": "Minesweeper",
+    "type": "tech",
+    "cost": 12,
+    "effect": "Deal 4 Tech damage for every card in play"
+  },
+  {
+    "name": "Stun'n'Gun",
+    "type": "tech",
+    "cost": 10,
+    "effect": "Deal 2 Tech Damage. Your Opponent must pay full Vice cost for all cards for their next 2 turns"
+  }
+]
