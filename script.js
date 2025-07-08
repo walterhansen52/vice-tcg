@@ -1,1 +1,2 @@
-document.getElementById('status').innerText = 'Game engine loaded. Ready to play.';
+// Placeholder for game logic
+console.log("Engine baseline ready.");
