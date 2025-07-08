@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Vice Tactics - Final Fix</title>
+  <title>Vice Tactics - Phase 2 Fix</title>
   <style>
     body { font-family: monospace; background: #111; color: #eee; margin: 0; padding: 0; }
     h1, .status { text-align: center; padding: 10px; }
@@ -138,16 +138,18 @@ function render() {
   document.getElementById("log").innerHTML = "<strong>Turn Log:</strong><br>" + log.slice(-30).join("<br>");
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+function initGame() {
   deck = [...swashDeck, ...swashDeck].sort(() => Math.random() - 0.5);
   aiDeck = [...aiDeckTemplate, ...aiDeckTemplate].sort(() => Math.random() - 0.5);
   for (let i = 0; i < 5; i++) {
     const card = drawCard(deck);
     if (card) hand.push(card);
   }
-  log.push("Game initialized. 5 cards drawn.");
+  log.push("Game initialized. Starting hand size: " + hand.length);
   render();
-});
+}
+
+window.onload = initGame;
 </script>
 </body>
 </html>
