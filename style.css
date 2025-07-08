@@ -1,0 +1,24 @@
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+}
+#zones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+}
+.zone {
+    background: #222;
+    padding: 20px;
+    border: 1px solid #444;
+    min-height: 100px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}

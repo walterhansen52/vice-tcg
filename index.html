@@ -1,13 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vice Tactics MVP: Full Game Build</title>
+    <title>Vice Tactics MVP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Vice Tactics MVP: Full Game Build</h1>
-    <div id="game">Loading game engine...</div>
-    <script src="script.js"></script>
+    <h1>Vice Tactics MVP: Clean MVP Build</h1>
+    <div id="game-status">Initializing game...</div>
+    <div id="zones">
+        <div class="zone" id="ai-tech">AI Tech</div>
+        <div class="zone" id="ai-hero">AI Hero</div>
+        <div class="zone" id="ai-combat">AI Combat</div>
+        <div class="zone" id="player-tech">Your Tech</div>
+        <div class="zone" id="player-hero">Your Hero</div>
+        <div class="zone" id="player-combat">Your Combat</div>
+    </div>
+    <button onclick="endTurn()">End Turn</button>
+    <script src="main.js"></script>
 </body>
 </html>
