@@ -22,4 +22,43 @@ This is the MVP (Minimum Viable Product) version of the game engine — built in
    - Click to play cards; effects auto-resolve
 
 ## 🗂 File Structure
+vice-tcg/
+├── index.html # MVP engine
+├── README.md # You're here
+├── data/
+│ ├── hero_cost_modifiers.json
+│ ├── all_card_library.json
+│ └── decks/
+│ ├── witch_doctor_dre.csv
+│ ├── chaos_mage.csv
+│ └── swashbuckler_ai.csv
+├── rules/
+│ ├── quickstart.md
+│ └── full_rules.md
 
+## 📚 Rules Overview
+
+- 40 cards per deck, max 2 copies of any card
+- You lose if your deck runs out
+- If both players hit 0 HP simultaneously, it's a draw
+- Decks may include cards that are "unavailable" to your Hero — they simply can't be played
+- Weapons attack automatically until broken
+
+See `rules/quickstart.md` for setup and `full_rules.md` for advanced mechanics.
+
+## 🚧 Upcoming Features
+- Zone-based layout with React (in progress)
+- Graphical card rendering
+- Turn history log
+- AI difficulty options
+- Online multiplayer support
+- GitHub Pages deployment
+
+## 🌐 Live Demo (soon)
+We’ll host the playable version via GitHub Pages:
+> https://walterhansen52.github.io/vice-tcg/
+
+## 🤝 Contributing
+Coming soon — issues and project board will be added for dev planning.
+
+---
