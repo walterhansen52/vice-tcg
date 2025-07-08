@@ -1,153 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Vice Tactics - Upgraded MVP</title>
+  <title>Vice Tactics - Phase 2 MVP</title>
   <style>
-    body { font-family: monospace; background: #111; color: #eee; padding: 20px; }
-    .card { border: 1px solid #444; padding: 10px; margin: 5px; background: #222; display: inline-block; width: 200px; }
-    button { margin-top: 10px; }
-    #log { margin-top: 20px; padding: 10px; background: #000; border: 1px solid #444; height: 200px; overflow-y: auto; }
+    body { font-family: monospace; background: #0f0f0f; color: #eee; margin: 0; padding: 0; }
+    .board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 20px; }
+    .zone, .hero { background: #1e1e1e; border: 2px solid #333; padding: 10px; min-height: 150px; text-align: center; border-radius: 8px; }
+    .card { background: #292929; padding: 10px; border: 1px solid #555; margin: 5px; border-radius: 6px; animation: playCard 0.5s ease-out; }
+    @keyframes playCard {
+      from { transform: scale(1.2); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
   </style>
 </head>
 <body>
-  <h1>Vice Tactics MVP – Cyber Ronin vs. Psy-Ops AI</h1>
-  <div id="status"></div>
-  <div><strong>Hand:</strong></div>
-  <div id="hand"></div>
-  <button onclick="endTurn()">End Turn</button>
-  <div id="log"><strong>Turn Log:</strong><br></div>
-  <script>
-    let playerHP = 25, opponentHP = 25, maxVice = 1, currentVice = 1, turn = 1, gameOver = false;
-    let hand = [], deck = [], aiDeck = [], graveyard = [], log = [];
+  <h1 style="padding: 10px;">Vice Tactics – Swashbuckler vs Psy-Ops AI</h1>
+  <div style="padding: 0 20px;">Player HP: <span id="playerHP">25</span> | Opponent HP: <span id="opponentHP">25</span> | Vice: <span id="viceStatus">1/1</span></div>
+  <div class="board">
+    <div class="zone" id="opponentZone">Opponent Cards</div>
+    <div class="hero" id="opponentHero">Psy-Ops Soldier</div>
+    <div class="zone" id="opponentTech">Opponent Tech</div>
 
-    const playerHero = "Cyber Ronin";
-    const aiHero = "Psy-Ops Soldier";
+    <div class="zone" id="playerCombat">Combat Cards</div>
+    <div class="hero" id="playerHero">Swashbuckler</div>
+    <div class="zone" id="playerTech">Tech/Spells</div>
+  </div>
 
-    const heroModifiers = {
-      "Cyber Ronin": { spell: 0, combat: -1, tech: -1 },
-      "Psy-Ops Soldier": { spell: -1, combat: -2, tech: -1 }
-    };
+  <div style="padding: 20px;">
+    <button onclick="endTurn()">End Turn</button>
+    <div><strong>Hand:</strong> <div id="hand" style="display: flex; flex-wrap: wrap;"></div></div>
+    <div><strong>Turn Log:</strong> <div id="log" style="max-height: 200px; overflow-y: auto; background: #111; border: 1px solid #444; padding: 10px;"></div></div>
+  </div>
 
-    const allCards = {
-      "Firewall Override": { type: "tech", cost: 3, damage: 0 },
-      "Headbutt": { type: "combat", cost: 4, damage: 4 },
-      "Glitch Pulse": { type: "tech", cost: 2, damage: 2 },
-      "Hack Spike": { type: "tech", cost: 2, damage: 2 },
-      "Nanite Swarm": { type: "tech", cost: 1, damage: 1 },
-      "Tech Slash": { type: "tech", cost: 3, damage: 4 },
-      "Spellfire": { type: "spell", cost: 2, damage: 3 },
-      "Curse of Vice": { type: "spell", cost: 4, damage: 2 },
-      "Mana Burn": { type: "spell", cost: 3, damage: 2 },
-      "Arcane Echo": { type: "spell", cost: 1, damage: 0 },
-      "Combat Strategist": { type: "combat", cost: 5, damage: 3 },
-      "Backstab": { type: "combat", cost: 3, damage: 2 },
-      "Blade Flurry": { type: "combat", cost: 4, damage: 4 },
-      "Magic Missile": { type: "spell", cost: 2, damage: 2 },
-      "Battle Meditation": { type: "spell", cost: 3, damage: 0 },
-      "Overclock": { type: "tech", cost: 2, damage: 0 },
-      "System Shock": { type: "tech", cost: 3, damage: 3 },
-      "Shield Block": { type: "combat", cost: 2, damage: 0 },
-      "Adrenal Surge": { type: "combat", cost: 1, damage: 1 },
-      "Chain Lightning": { type: "spell", cost: 5, damage: 5 }
-    };
+<script>
+let playerHP = 25, opponentHP = 25, turn = 1, maxVice = 1, currentVice = 1;
+let hand = [], deck = [], aiDeck = [], log = [];
 
-    const cyberRoninDeck = ["Firewall Override","Headbutt","Glitch Pulse","Hack Spike","Nanite Swarm","Tech Slash","Overclock","System Shock","Adrenal Surge","Shield Block"];
-    const psyOpsDeck = ["Spellfire","Curse of Vice","Mana Burn","Arcane Echo","Combat Strategist","Backstab","Blade Flurry","Magic Missile","Battle Meditation","Chain Lightning"];
+const heroModifiers = {
+  "Swashbuckler": { spell: 0, combat: -2, tech: 0 },
+  "Psy-Ops Soldier": { spell: -1, combat: -2, tech: -1 }
+};
 
-    function shuffleDeck(raw) {
-      let arr = [];
-      for (let i = 0; i < 4; i++) arr = arr.concat([...raw]);
-      return arr.sort(() => Math.random() - 0.5);
+const swashbucklerDeck = [
+  "Headbutt", "Adrenal Surge", "Combat Strategist", "Shield Block", "Blade Flurry",
+  "Backstab", "Chain Lightning", "Magic Missile", "Arcane Echo", "Overclock"
+];
+
+const psyOpsDeck = [
+  "Spellfire", "Curse of Vice", "Mana Burn", "Arcane Echo", "Combat Strategist",
+  "Backstab", "Blade Flurry", "Magic Missile", "Battle Meditation", "Chain Lightning"
+];
+
+const cardEffects = {
+  "Headbutt": { type: "combat", cost: 4, damage: 4, selfDamage: 1 },
+  "Adrenal Surge": { type: "combat", cost: 1, damage: 1, heal: 1 },
+  "Combat Strategist": { type: "combat", cost: 5, damage: 3 },
+  "Shield Block": { type: "combat", cost: 2, block: 3 },
+  "Blade Flurry": { type: "combat", cost: 4, damage: 4 },
+  "Backstab": { type: "combat", cost: 3, damage: 2 },
+  "Chain Lightning": { type: "spell", cost: 5, damage: 5 },
+  "Magic Missile": { type: "spell", cost: 2, damage: 2 },
+  "Arcane Echo": { type: "spell", cost: 1, draw: 1 },
+  "Overclock": { type: "tech", cost: 2, draw: 2 },
+  "Spellfire": { type: "spell", cost: 2, damage: 3 },
+  "Curse of Vice": { type: "spell", cost: 4, damage: 2 },
+  "Mana Burn": { type: "spell", cost: 3, damage: 2, selfDamage: 1 },
+  "Battle Meditation": { type: "spell", cost: 3, heal: 3 }
+};
+
+function drawCard(deckList) {
+  if (deckList.length) return deckList.pop();
+  return null;
+}
+
+function applyEffects(cardName, isPlayer = true) {
+  const effect = cardEffects[cardName];
+  const mod = heroModifiers[isPlayer ? "Swashbuckler" : "Psy-Ops Soldier"][effect.type] || 0;
+  const actualCost = Math.max(0, effect.cost + mod);
+
+  if (actualCost > currentVice) return false;
+
+  currentVice -= actualCost;
+  if (effect.damage) (isPlayer ? opponentHP : playerHP) -= effect.damage;
+  if (effect.heal) (isPlayer ? playerHP : opponentHP) += effect.heal;
+  if (effect.selfDamage) (isPlayer ? playerHP : opponentHP) -= effect.selfDamage;
+  if (effect.draw) {
+    for (let i = 0; i < effect.draw; i++) {
+      const newCard = drawCard(isPlayer ? deck : aiDeck);
+      if (newCard) hand.push(newCard);
     }
+  }
 
-    function drawCard() {
-      if (deck.length > 0 && hand.length < 10) hand.push(deck.shift());
-    }
+  log.push((isPlayer ? "Player" : "AI") + " played " + cardName + " for " + actualCost + " Vice.");
+  return true;
+}
 
-    function drawStartingHand() {
-      for (let i = 0; i < 5; i++) drawCard();
-    }
+function render() {
+  document.getElementById("playerHP").textContent = playerHP;
+  document.getElementById("opponentHP").textContent = opponentHP;
+  document.getElementById("viceStatus").textContent = `${currentVice}/${maxVice}`;
+  document.getElementById("log").innerHTML = log.slice(-20).join("<br>");
 
-    function render() {
-      document.getElementById("status").innerText = 
-        gameOver ? "Game Over" : `Turn: ${turn} | Your HP: ${playerHP} | Opponent HP: ${opponentHP} | Vice: ${currentVice}/${maxVice}`;
-      const handDiv = document.getElementById("hand");
-      handDiv.innerHTML = "";
-      hand.forEach((name, i) => {
-        const card = allCards[name];
-        const mod = heroModifiers[playerHero][card.type] || 0;
-        const cost = Math.max(0, card.cost + mod);
-        const div = document.createElement("div");
-        div.className = "card";
-        div.innerHTML = `<strong>${name}</strong><br>Cost: ${cost}<br>Damage: ${card.damage}<br>`;
-        const btn = document.createElement("button");
-        btn.innerText = "Play";
-        btn.onclick = () => playCard(i, cost);
-        div.appendChild(btn);
-        handDiv.appendChild(div);
-      });
+  const handDiv = document.getElementById("hand");
+  handDiv.innerHTML = "";
+  hand.forEach((card, i) => {
+    const div = document.createElement("div");
+    div.className = "card";
+    div.innerHTML = `<strong>${card}</strong><br><button onclick="playCard(${i})">Play</button>`;
+    handDiv.appendChild(div);
+  });
+}
 
-      document.getElementById("log").innerHTML = "<strong>Turn Log:</strong><br>" + log.slice(-20).join("<br>");
-    }
+function playCard(index) {
+  const name = hand[index];
+  const success = applyEffects(name);
+  if (success) hand.splice(index, 1);
+  render();
+}
 
-    function playCard(index, actualCost) {
-      if (gameOver) return;
-      const name = hand[index];
-      const card = allCards[name];
-      if (actualCost <= currentVice) {
-        currentVice -= actualCost;
-        opponentHP -= card.damage;
-        log.push(`Player played ${name} for ${actualCost} Vice. Dealt ${card.damage} damage.`);
-        graveyard.push(hand.splice(index, 1)[0]);
-        checkGameOver();
-        render();
-      } else {
-        alert("Not enough Vice!");
+function endTurn() {
+  // AI turn
+  let aiVice = Math.min(turn + 1, 10);
+  for (let i = 0; i < 3; i++) {
+    const card = drawCard(aiDeck);
+    if (card) {
+      const effect = cardEffects[card];
+      const mod = heroModifiers["Psy-Ops Soldier"][effect.type] || 0;
+      const cost = Math.max(0, effect.cost + mod);
+      if (cost <= aiVice) {
+        aiVice -= cost;
+        applyEffects(card, false);
       }
     }
+  }
 
-    function checkGameOver() {
-      if (playerHP <= 0 && opponentHP <= 0) {
-        log.push("Draw! Both players hit 0 HP.");
-        gameOver = true;
-      } else if (opponentHP <= 0) {
-        log.push("You win!");
-        gameOver = true;
-      } else if (playerHP <= 0) {
-        log.push("You lose.");
-        gameOver = true;
-      }
-    }
+  turn++;
+  maxVice = Math.min(10, turn);
+  currentVice = maxVice;
+  const newCard = drawCard(deck);
+  if (newCard) hand.push(newCard);
+  render();
+}
 
-    function endTurn() {
-      if (gameOver) return;
-      // AI Turn
-      let aiVice = Math.min(turn + 1, 10);
-      let plays = shuffleDeck(psyOpsDeck).slice(0, 4);
-      for (let name of plays) {
-        const card = allCards[name];
-        const mod = heroModifiers[aiHero][card.type] || 0;
-        const cost = Math.max(0, card.cost + mod);
-        if (cost <= aiVice) {
-          aiVice -= cost;
-          playerHP -= card.damage;
-          log.push(`AI played ${name} for ${cost} Vice. Dealt ${card.damage} damage.`);
-          checkGameOver();
-          if (gameOver) break;
-        }
-      }
-      turn++;
-      maxVice = Math.min(10, turn);
-      currentVice = maxVice;
-      drawCard();
-      render();
-    }
-
-    // Game start
-    deck = shuffleDeck(cyberRoninDeck);
-    aiDeck = shuffleDeck(psyOpsDeck);
-    drawStartingHand();
-    render();
-  </script>
+// Game start
+deck = [...swashbucklerDeck, ...swashbucklerDeck].sort(() => Math.random() - 0.5);
+aiDeck = [...psyOpsDeck, ...psyOpsDeck].sort(() => Math.random() - 0.5);
+for (let i = 0; i < 5; i++) hand.push(drawCard(deck));
+render();
+</script>
 </body>
 </html>
