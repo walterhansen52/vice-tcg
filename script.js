@@ -1,1 +1,1 @@
-console.log('Game engine initialized');
+document.getElementById('status').innerText = 'Game engine loaded. Ready to play.';
