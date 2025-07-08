@@ -1,31 +1,35 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Vice Tactics MVP</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Vice Tactics MVP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Vice Tactics MVP</h1>
-  <div id="status">Game starting...</div>
-  <div class="board">
-    <div class="zone-row">
-      <div class="zone" id="ai-tech">AI Tech</div>
-      <div class="zone" id="ai-hero">AI Hero<br><span id="ai-hp">HP: 25</span></div>
-      <div class="zone" id="ai-combat">AI Combat</div>
-      <div class="zone" id="ai-spell">AI Spell</div>
+    <h1>Vice Tactics MVP</h1>
+    <div id="status">Game starting...</div>
+
+    <div class="board">
+        <div class="zone-row">
+            <div class="zone" id="ai-tech">AI Tech</div>
+            <div class="zone" id="ai-hero">AI Hero<br>HP: <span id="ai-hp">25</span></div>
+            <div class="zone" id="ai-combat">AI Combat</div>
+            <div class="zone" id="ai-spell">AI Spell</div>
+        </div>
+        <div class="zone-row">
+            <div class="zone" id="your-tech">Your Tech</div>
+            <div class="zone" id="your-hero">Your Hero<br>HP: <span id="player-hp">25</span></div>
+            <div class="zone" id="your-combat">Your Combat</div>
+            <div class="zone" id="your-spell">Your Spell</div>
+        </div>
     </div>
-    <div class="zone-row">
-      <div class="zone" id="player-tech">Your Tech</div>
-      <div class="zone" id="player-hero">Your Hero<br><span id="player-hp">HP: 25</span></div>
-      <div class="zone" id="player-combat">Your Combat</div>
-      <div class="zone" id="player-spell">Your Spell</div>
-    </div>
-  </div>
-  <div id="vice-counter">Vice: 1</div>
-  <div id="hand"></div>
-  <button id="end-turn">End Turn</button>
-  <textarea id="log" readonly></textarea>
-  <script src="script.js"></script>
+
+    <div id="hand" class="hand"></div>
+    <div>Vice: <span id="vice-counter">1</span></div>
+    <button id="end-turn">End Turn</button>
+
+    <textarea id="log" readonly></textarea>
+
+    <script src="script.js"></script>
 </body>
 </html>
