@@ -1,1 +1,30 @@
-<!DOCTYPE html><html><head><title>Vice Tactics MVP</title></head><body><h1>Vice Tactics MVP</h1><p>Autostarting game...</p><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vice Tactics MVP</title>
+  <style>
+    body { background-color: #111; color: #eee; font-family: monospace; text-align: center; padding: 20px; }
+    .zone { border: 1px solid #444; margin: 10px; padding: 10px; min-height: 100px; }
+    .row { display: flex; justify-content: center; }
+    button { padding: 10px 20px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Vice Tactics MVP</h1>
+  <div id="status">Game starting...</div>
+  <div class="row">
+    <div class="zone" id="ai-tech">AI Tech</div>
+    <div class="zone" id="ai-hero">AI Hero</div>
+    <div class="zone" id="ai-combat">AI Combat</div>
+  </div>
+  <div class="row">
+    <div class="zone" id="player-tech">Your Tech</div>
+    <div class="zone" id="player-hero">Your Hero</div>
+    <div class="zone" id="player-combat">Your Combat</div>
+  </div>
+  <div id="hand"></div>
+  <button onclick="endTurn()">End Turn</button>
+  <div id="log" style="margin-top: 20px; white-space: pre-line;"></div>
+  <script src="main.js"></script>
+</body>
+</html>

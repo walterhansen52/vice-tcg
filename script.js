@@ -1,2 +1,2 @@
-// Game logic placeholder
-console.log('Game initialized and auto-started.');
+// Placeholder for game logic
+console.log("Engine baseline ready.");
