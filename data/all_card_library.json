@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Headbutt",
+    "type": "combat",
+    "cost": 4,
+    "effect": "Deals 4 damage and 1 to self"
+  },
+  {
+    "name": "Firewall Override",
+    "type": "tech",
+    "cost": 3,
+    "effect": "Draw 2 cards"
+  }
+]
