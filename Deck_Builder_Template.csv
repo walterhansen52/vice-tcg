@@ -1,0 +1,3 @@
+Name,Type,Kind*,BaseCost,Effect,Duration,Durability,LimitPerDeck
+Sample Card 1,Spell,A,3,Draw 2 cards.,,,2
+Sample Card 2,Combat,B,5,Deal 3 damage for 3 turns.,3,,2

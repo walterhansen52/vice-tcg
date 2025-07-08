@@ -1,0 +1,4 @@
+Name,Type,Kind*,BaseCost,Effect,Duration,Durability,LimitPerDeck
+Bolt,Combat,A,3,Deal 3 damage.,,,2
+Vice Burn,Spell,A,2,Opponent loses 1 Vice.,,,2
+Firewall Override,Tech,B,4,Ignore counters next turn.,2,,2
